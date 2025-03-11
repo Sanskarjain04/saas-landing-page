@@ -2,10 +2,9 @@
     "build": {
       "env": {
         "NODE_ENV": "production"
-      },
-      "commands": {
-        "install": "npm install --legacy-peer-deps",
-        "build": "vite build"
       }
+    },
+    "scripts": {
+      "build": "npm install --legacy-peer-deps && vite build"
     }
   }
